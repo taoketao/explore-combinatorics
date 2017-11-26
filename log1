@@ -1,0 +1,6 @@
+# IPython log file
+
+
+from PathfinderEnv import PathEnv
+from expenv import ExpAPI
+envir_description = 'STUB: normally this would be r-u or r-u-ru, for each environment. This field is used in expenv.py::ExpAPI class argument experiment_name in order to (1) set the gridsize, (2) starting states, and (3) handle not-implemented exceptions that may slip by later. This field is also used in PathfinderEnv\'s internal _reset to (4) get weighted-sampled starting states during training.   I suppose [4] can be ignored for now, since curricula are inessential here.'
